@@ -1,4 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+***Project NAME**
+    FITLOG
+
+**Discription**
+FITLOG is a modern and responsive workout library web application built with Next.js, TypeScript, Tailwind CSS, and DaisyUI. It helps users explore different workouts, view detailed exercise instructions, and organize their personal workout plan.
+
+**Features**
+    🏋️ Browse a collection of workouts
+    🔍 View detailed workout information
+    📋 Add workouts to a personal plan
+    ❤️ Save favorite workouts
+    ✅ Mark workouts as completed
+    📅 Manage today's workout plan
+    ⭐ Display workout ratings
+    🔥 Show duration and estimated calories burned
+    📱 Fully responsive design for mobile, tablet, and desktop
+    🌙 Modern dark fitness-themed UI
+    ⚡ Fast performance with Next.js
+
+## ✨ Key Features
+
+      1. Fully Responsive Library Grid
+      2. Live Dynamic Badge Counters & Metrics Summary      
+      3. Interactive Workout Logging System (Add, Complete, Remove)  
+      4. Advanced Sorting Mechanism      
+      5. Seamless Error Handling & Persistent States
+
+
+## 🛠️ Technologies Used
+
+      Next.js
+      React
+      TypeScript
+      Tailwind CSS
+      DaisyUI
+      Next.js Image
+      React Context API
+      Local state management
 
 ## Getting Started
 
@@ -6,31 +43,14 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
+ Local:         http://localhost:3000
+Network:       http://192.168.0.102:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deploy on Netlify
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+https://harmonious-cendol-7e723c.netlify.app/
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Github  repo link: https://github.com/mdalsuhad-cloud/b14-fitlog-a06.git
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
