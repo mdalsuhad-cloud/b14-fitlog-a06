@@ -1,7 +1,17 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
+import { usePlan } from "../context/PlanContext";
 
+export default function Navbar() {
+  const pathname = usePathname();
+
+  const { plan, saved } = usePlan();
+
+  const workoutActive = pathname === "/";
+  const planActive = pathname === "/my-plan";
 
   return (
     <header className="sticky top-0 z-50 border-b border-[#20232a] bg-[#0b0c0f]/95 backdrop-blur">
