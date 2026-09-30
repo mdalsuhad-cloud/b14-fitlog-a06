@@ -249,8 +249,8 @@ function WorkoutPlanCard({
     <div className="flex flex-col gap-4 rounded-xl border border-[#252a32] bg-[#15171c] p-3 sm:flex-row sm:items-center">
 
       <Image
-        src="/workout-card.png"
-        alt="workout"
+          src={workout.image}
+         alt={workout.name}
         width={112}
         height={80}
         className="h-20 w-full rounded-lg object-cover sm:w-28"
